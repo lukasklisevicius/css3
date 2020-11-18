@@ -1,0 +1,56 @@
+
+h3 {
+position: fixed;
+top: 0;
+left: calc(50% - 192px);
+z-index: 10;
+}
+
+.pirmas,.antras {
+  width: 50%;
+  height: 500px;
+  background: Green;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.pirmas>div {
+  width: 100px;
+  height: 100px;
+  background: darkgreen;
+}
+
+.inside1,.inside2,.inside3,.inside4{
+  position: absolute;
+}
+
+.inside1 {
+  top: 0;
+  right: 0;
+}
+
+.inside2 {
+  bottom: 0;
+  left: 0;
+}
+
+.inside3 {
+  bottom: 0;
+  right: 0;
+}
+
+.inside4 {
+  top: 0;
+  left: 0;
+}
+
+.antras > div {
+  width: 300px;
+  height: 300px;
+  background: darkgreen;
+  position: relative;
+  top:calc(50% - 150px) ;
+  left:calc(50% - 150px);
+}
